@@ -99,3 +99,18 @@ input[type="text"] {
 #outputtasks button:hover {
   background-color: #e53935;
 }
+
+/* For tablets and up */
+@media (min-width: 768px) {
+  .container {
+    padding: 40px;
+  }
+}
+
+/* For mobile */
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+}
