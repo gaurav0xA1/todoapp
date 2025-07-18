@@ -1,0 +1,101 @@
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #4dd3ec;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main {
+  background-color: #b2ebf2;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 15px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  outline: none;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #b2f1f7;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #017b8c;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: #4dd3ec;
+  color: white;
+}
+
+#outputtasks {
+  background-color: #d0f5f9;
+  padding: 20px;
+  border-radius: 15px;
+  min-height: 150px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+#outputtasks p {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: #01579b;
+}
+
+#outputtasks button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s;
+}
+
+#outputtasks button:hover {
+  background-color: #e53935;
+}
